@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: #B2BEB5;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.task_04.HelloController">
+   <children>
+      <ImageView fitHeight="407.0" fitWidth="600.0">
+         <image>
+            <Image url="@../../../../../../../../02.png" />
+         </image>
+      </ImageView>
+      <Label opacity="0.94" prefHeight="59.0" prefWidth="563.0" style="-fx-background-color: #7393B3;" text="    Foodie Fave  ..." textAlignment="CENTER" textFill="#050505">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" layoutY="-8.0" prefHeight="75.0" prefWidth="294.0" text="Queue management system" textAlignment="CENTER" textFill="#4e0a0a">
+         <font>
+            <Font name="Gill Sans MT Condensed" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutY="59.0" prefHeight="37.0" prefWidth="335.0" style="-fx-background-color: #899499;" text="   Customers Deatails  ------" textAlignment="RIGHT" textFill="#1e0000" AnchorPane.bottomAnchor="304.0" AnchorPane.rightAnchor="265.0" AnchorPane.topAnchor="59.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutY="96.0" opacity="0.89" prefHeight="54.0" prefWidth="335.0" style="-fx-background-color: #818589;" text=" Cusromes' Names &amp; Burgers Required" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+   <effect>
+      <Glow />
+   </effect>
+</AnchorPane>
